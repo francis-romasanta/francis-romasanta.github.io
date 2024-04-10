@@ -318,6 +318,11 @@ footer {
 #about p {
   color: #74808a;
   margin: 0;
+  text-align: justify;
+}
+#about > .container > .row {
+  display: flex;
+  align-items: center;
 }
 #experience {
   padding: 50px 15px;
@@ -666,11 +671,15 @@ footer {
   #lead-content h2 {
     font-size: 1.75em;
   }
+  #about > .container > .row {
+    display: flex;
+    flex-direction: column;
+  }
   #about {
     text-align: center;
   }
   #about p {
-    text-align: left;
+    text-align: justify;
   }
 }
 @media only screen and (max-width: 768px) {
